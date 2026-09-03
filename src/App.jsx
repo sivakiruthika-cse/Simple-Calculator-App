@@ -1,9 +1,12 @@
-function App() { 
-  return ( 
-    <div> 
-      <Simple Calculator /> 
-    </div> 
-  ); 
-} 
- 
+import SimpleCalculator from "./SimpleCalculator";
+
+function App() {
+  return (
+    <div>
+      <SimpleCalculator />
+    </div>
+  );
+}
+
 export default App;
+
