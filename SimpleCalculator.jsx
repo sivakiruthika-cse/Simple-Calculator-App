@@ -1,7 +1,7 @@
 import { useState } from "react";
-import "./Project.css";
+import "./SimpleCalculator.css";
 
-function Project() {
+function SimpleCalculator() {
   const [display, setDisplay] = useState("");
 
   // Number and operator buttons
@@ -152,4 +152,4 @@ function Project() {
   );
 }
 
-export default Project;
+export default SimpleCalculator;
