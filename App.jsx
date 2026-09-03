@@ -1,9 +1,9 @@
-import Simple Calculator from "./SimpleCalculator";
+import Project from "./Project";
 
 function App() {
   return (
     <div>
-      <Simple Calculator />
+      <Project />
     </div>
   );
 }
